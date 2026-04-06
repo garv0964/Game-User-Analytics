@@ -1,0 +1,19 @@
+# Virtual environments
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Any data files that might be huge (optional, feel free to remove this if you want the CSVs on GitHub)
+# data/
