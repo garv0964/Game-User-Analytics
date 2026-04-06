@@ -32,7 +32,7 @@ def random_date(start, end):
     random_second = random.randrange(int_delta)
     return start + timedelta(seconds=random_second)
 
-print("Starting data generation for Game User Analytics (India-Focused)...")
+print("Starting data generation for Game User Analytics....")
 
 # 1. Generate Users Table
 print("Generating Users...")
