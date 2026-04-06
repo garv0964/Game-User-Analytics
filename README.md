@@ -2,7 +2,7 @@
 
 A complete end-to-end data analytics pipeline reflecting real-world mobile gaming analytics systems (similar to PlaySimple). This project strictly focuses on Indian mobile gaming market behavior, incorporating hyper-realistic metrics like high early-churn, Android dominance, and INR (₹) monetization dynamics.
 
-## 🚀 Project Overview
+## Project Overview
 This project simulates real-world gaming data and creates structured schemas, conducts exploratory analysis, tracks conversion funnels, computes KPIs, and provides actionable insights and instructions to visualize the data via Power BI.
 
 ### Tech Stack
@@ -10,7 +10,7 @@ This project simulates real-world gaming data and creates structured schemas, co
 - **Database**: SQL (PostgreSQL / ANSI SQL)
 - **Visualization**: Power BI (Instructions provided)
 
-## 📂 Project Structure
+### Project Structure
 ```text
 /game-analytics-india
 ├── README.md                           # Documentation
@@ -24,12 +24,12 @@ This project simulates real-world gaming data and creates structured schemas, co
 │   └── queries.sql                     # SQL schema & KPI analysis scripts
 ├── python/
 │   ├── data_generator.py               # Generates realistic synthetic datasets
-│   └── analysis.py                     # Processes data to identify churn, retention and revenue
-└── dashboard/
-    └── power_bi_instructions.md        # Step-by-step guide to plotting metrics in Power BI
-```
+│   └── analysis.py                     # Processes data to identify churn, retention and 
 
-## ⚙️ How to Run the Project
+
+
+```
+### How to Run the Project
 
 ### 1. Generating Data
 The dataset utilizes randomized patterns that mirror mobile audiences in India. Run the generator to populate the `data/` folder:
@@ -50,13 +50,13 @@ python analysis.py
 ### 3. Database Execution
 Initialize a database and run the `sql/queries.sql` queries to retrieve insights exactly as a data analyst would in a production environment.
 
-## 📊 Key Insights & Behaviors
+## Key Insights & Behaviors
 - **Drop-off Funnel**: Expected high drop-off immediately following the first session (Day-1 Retention represents the largest bottleneck).
 - **Ecosystem**: Android commands vast numerical presence (approx 80%), creating a specific optimization environment.
 - **Geography**: Metrics naturally aggregate with higher ARPU from Metro cities (Mumbai, Bangalore, Delhi).
 - **Monetization**: Low pure conversion percentage (2-5% industry standard bounds) but high per-paying-user (ARPPU) margins. Monetization represents INR amounts ranging from ₹10 to ₹2000.
 
-## 💡 Actionable Recommendations
+## Actionable Recommendations
 - **Improve Onboarding**: Flatten the difficulty curve on Day 1 to reduce the exponential early churn.
 - **Implement Streaks/Daily Rewards**: Motivate users through consecutive login bonuses specific to Android-dominated traffic.
 - **Segmented Targeting**: Upsell higher tier IAP (In-App Purchases) strictly to the Top 5% engaged user bracket ("Whales"), while offering localized cheaper tier models to retaining free-to-play users.
