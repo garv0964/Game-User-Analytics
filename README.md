@@ -1,14 +1,14 @@
-# Mobile Game User Analytics & Growth Dashboard (India-Focused)
+# Game User Analytics 
 
-A complete end-to-end data analytics pipeline reflecting real-world mobile gaming analytics systems (similar to PlaySimple). This project strictly focuses on Indian mobile gaming market behavior, incorporating hyper-realistic metrics like high early-churn, Android dominance, and INR (₹) monetization dynamics.
+A complete end-to-end data analytics pipeline reflecting real-world gaming analytics systems.This project strictly focuses on gaming market behavior, incorporating hyper-realistic metrics like high early-churn, Android dominance, and INR (₹) monetization dynamics.
 
 ## Project Overview
-This project simulates real-world gaming data and creates structured schemas, conducts exploratory analysis, tracks conversion funnels, computes KPIs, and provides actionable insights and instructions to visualize the data via Power BI.
+This project simulates real-world gaming data and creates structured schemas, conducts exploratory analysis, tracks conversion funnels, computes KPIs, and provides actionable insights.
 
 ### Tech Stack
 - **Data Generation & Analysis**: Python, Pandas, NumPy, Matplotlib
-- **Database**: SQL (PostgreSQL / ANSI SQL)
-- **Visualization**: Power BI (Instructions provided)
+- **Database**: SQL
+
 
 ### Project Structure
 ```text
